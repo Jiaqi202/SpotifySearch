@@ -6,7 +6,7 @@ This is a project to get records from spotify by artist, keyword, or new relase
 1. At first, you have to register an account at : https://developer.spotify.com
 2. Then get into the dashboard, create a new app, give it a name. There are *client ID* and *client Secret*, that will be access key.
 3. In the Edit setting, change the RedirectURIs to : http://google.com/ (or localhost), save it.
-4. In the Spotify.app, find profile link, and see unique User ID : xxxxx in the link "https://open.spotify.com/user/xxxxxxxxx"
+4. In the your local Spotify player, get into your personal account, find profile link, and see unique User ID : xxxxx in the link "https://open.spotify.com/user/xxxxxxxxx"
 5. Then in the terminal, get into your project folder (the folder includes this spotifyTest.py)
 6. In the terminal, input :
         $ export SPOTIPY_CLIENT_ID = '(Input your *client ID*)'
@@ -28,6 +28,11 @@ This is a project to get records from spotify by artist, keyword, or new relase
     d. new released playlist
     e. exit 
 9. For the option a, b, d, the result will be saved as a ".csv" file
+    a. The name you input must be as same as spotify has. such as : Tylor Swift, Katy Perry
+    b. It is better to be a "complex" word, not only "he ,she, love, cat, dog...", but something special
+    c. Sometimes, people don't have recent playlist(like me, because I use other player)
+    d. the raw data will have 500 rows, but I cut 100 rows
+    e. noting, just exit it
 
 **C. Note**
 
