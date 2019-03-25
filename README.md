@@ -22,17 +22,17 @@ This is a project to get records from spotify by artist, keyword, or new relase
    Copy the link "https://google.com/xxxxxxxxxx" and paste to the terminal
         $ Enter the URL you were redirected to: (Paste here)
 8. There are five options:
-    a. search an artist's all album list
-    b. search albums have a key word (input)
-    c. get yourself recent playlist
-    d. new released playlist
-    e. exit 
+    * a. search an artist's all album list
+    * b. search albums have a key word (input)
+    * c. get yourself recent playlist
+    * d. new released playlist
+    * e. exit 
 9. For the option a, b, d, the result will be saved as a ".csv" file
-    a. The name you input must be as same as spotify has. such as : Tylor Swift, Katy Perry
-    b. It is better to be a "complex" word, not only "he ,she, love, cat, dog...", but something special
-    c. Sometimes, people don't have recent playlist(like me, because I use other player)
-    d. the raw data will have 500 rows, but I cut 100 rows
-    e. noting, just exit it
+    * a. The name you input must be as same as spotify has. such as : Tylor Swift, Katy Perry
+    * b. It is better to be a "complex" word, not only "he ,she, love, cat, dog...", but something special
+    * c. Sometimes, people don't have recent playlist(like me, because I use other player)
+    * d. the raw data will have 500 rows, but I cut 100 rows
+    * e. noting, just exit it
 
 **C. Note**
 
