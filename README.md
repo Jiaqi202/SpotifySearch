@@ -31,6 +31,6 @@ This is a project to get records from spotify by artist, keyword, or new relase
 
 **C. Note**
 
-##sometimes, you have to try twice to get connection
-##you can edit the limitation to control the rows you like
-##you can edit the output content as you like
+##sometimes, you have to try twice to get connection##
+##you can edit the limitation to control the rows you like##
+##you can edit the output content as you like##
