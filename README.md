@@ -29,9 +29,9 @@ This is a project to get records from spotify by artist, keyword, or new relase
     * e. exit 
 9. For the option a, b, d, the result will be saved as a ".csv" file
     * a. The name you input must be as same as spotify has. such as : Tylor Swift, Katy Perry
-    * b. It is better to be a "complex" word, not only "he ,she, love, cat, dog...", but something special
-    * c. Sometimes, people don't have recent playlist(like me, because I use other player)
-    * d. the raw data will have 500 rows, but I cut 100 rows
+    * b. Input is better to be a "complex" word, such as "superman", "nintendo"
+    * c. Sometimes, people don't have recent playlist (like me)
+    * d. The raw data will have 500 rows, but I cut it to 100 rows
     * e. noting, just exit it
 
 **C. Note**
