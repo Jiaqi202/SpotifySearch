@@ -13,7 +13,7 @@ This is a project to get records from spotify by artist, keyword, or new relase
         $ export SPOTIPY_CLIENT_SECRET = '(Input your *client Secret*)'
         $ export SPOTIPY_REDIRECT_URI='http://google.com/'
 
-**B. Running project : Four options **
+**B. Running project : Four options**
 
 7. In the terminal, after authentication, run this project by:
         $ python3 spotifyTest.py
@@ -29,7 +29,7 @@ This is a project to get records from spotify by artist, keyword, or new relase
     e. exit 
 9. For the option a, b, d, the result will be saved as a ".csv" file
 
-**C. Note **
+**C. Note**
 
 sometimes, you have to try twice to get connection
 you can edit the limitation to control the rows you like
