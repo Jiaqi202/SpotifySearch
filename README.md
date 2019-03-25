@@ -7,20 +7,20 @@ This is a project to get records from spotify by artist, keyword, or new relase
 2. Then get into the dashboard, create a new app, give it a name. There are *client ID* and *client Secret*, that will be access key.
 3. In the Edit setting, change the RedirectURIs to : http://google.com/ (or localhost), save it.
 4. In the your local Spotify player, get into your personal account, find profile link, and see unique User ID : xxxxx in the link "https://open.spotify.com/user/xxxxxxxxx"
-5. Then in the terminal, get into your project folder (the folder includes this spotifyTest.py)
-6. In the terminal, input :
-        $ export SPOTIPY_CLIENT_ID = '(Input your *client ID*)'
-        $ export SPOTIPY_CLIENT_SECRET = '(Input your *client Secret*)'
-        $ export SPOTIPY_REDIRECT_URI='http://google.com/'
+5. Then in the terminal, get into your project folder (the folder includes this spotifyTest.py)  
+6. In the terminal, input :  
+        $ export SPOTIPY_CLIENT_ID = '(Input your *client ID*)'  
+        $ export SPOTIPY_CLIENT_SECRET = '(Input your *client Secret*)'  
+        $ export SPOTIPY_REDIRECT_URI='http://google.com/'  
 
 **B. Running project : Four options**
 
 7. In the terminal, after authentication, run this project by:
-        $ python3 spotifyTest.py
-   Then you will be redirect to a web page.
-   Click OK, give permission to spotify.
-   Copy the link "https://google.com/xxxxxxxxxx" and paste to the terminal
-        $ Enter the URL you were redirected to: (Paste here)
+        $ python3 spotifyTest.py  
+   Then you will be redirect to a web page.  
+   Click OK, give permission to spotify.  
+   Copy the link "https://google.com/xxxxxxxxxx" and paste to the terminal  
+        $ Enter the URL you were redirected to: (Paste here)  
 8. There are five options:
     * a. search an artist's all album list
     * b. search albums have a key word (input)
