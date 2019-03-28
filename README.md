@@ -1,12 +1,12 @@
 # SpotifySearch
-This is a project to get records from spotify by artist, keyword, or new relase
+This is a project to get records from spotify by artist, keyword, or new release
 
 **A. Set your Spotify Account and Developer Application**
 
 1. At first, you have to register an account at : https://developer.spotify.com
 2. Then get into the dashboard, create a new app, give it a name. There are *client ID* and *client Secret*, that will be access key.
 3. In the Edit setting, change the RedirectURIs to : http://google.com/ (or localhost), save it.
-4. In the your local Spotify player, get into your personal account, find profile link, and see unique User ID : xxxxx in the link "https://open.spotify.com/user/xxxxxxxxx"
+4. In your local Spotify player, get into your personal account, find profile link, and see unique User ID : xxxxx in the link "https://open.spotify.com/user/xxxxxxxxx"
 5. Then in the terminal, get into your project folder (the folder includes this spotifyTest.py)  
 6. In the terminal, input :  
         $ export SPOTIPY_CLIENT_ID = '(Input your *client ID*)'  
